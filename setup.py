@@ -25,7 +25,17 @@ def get_requirements()->List[str]:
         
     return requirement_lst
 
-print(get_requirement())
+print(get_requirements())
+
+# setup meta data
+setup(
+    name="Network_Security",
+    version="0.0.1",
+    author="Kishan Kumar",
+    author_email="kishanthedeveloper85@gmail.com",
+    packages=find_packages(),
+    install_requires=get_requirements()  
+)
                     
             
             

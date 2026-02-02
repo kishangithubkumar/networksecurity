@@ -2,3 +2,7 @@ python-dotenv
 pandas
 numpy
 pymango
+certifi
+
+## when our project is complete then write -e .
+##-e .
